@@ -33543,6 +33543,7 @@ Microsoft_Windows_WinRT_Error_1_0,\
 Microsoft_Windows_WinRT_Error_2_0,\
 Microsoft_Windows_WinRT_Error_3_0
 
+# [20230111] Added imports for function 4017-4020
 from etl.parsers.etw.Microsoft_Windows_Winsock_AFD import \
 Microsoft_Windows_Winsock_AFD_1_0,\
 Microsoft_Windows_Winsock_AFD_2_0,\
@@ -33636,7 +33637,10 @@ Microsoft_Windows_Winsock_AFD_4013_0,\
 Microsoft_Windows_Winsock_AFD_4014_0,\
 Microsoft_Windows_Winsock_AFD_4015_0,\
 Microsoft_Windows_Winsock_AFD_4016_0,\
-Microsoft_Windows_Winsock_AFD_4017_0
+Microsoft_Windows_Winsock_AFD_4017_0,\
+Microsoft_Windows_Winsock_AFD_4018_0,\
+Microsoft_Windows_Winsock_AFD_4019_0,\
+Microsoft_Windows_Winsock_AFD_4020_0
 
 from etl.parsers.etw.Microsoft_Windows_Winsock_NameResolution import \
 Microsoft_Windows_Winsock_NameResolution_1000_0,\
@@ -33655,6 +33659,25 @@ Microsoft_Windows_Winsock_NameResolution_1012_0,\
 Microsoft_Windows_Winsock_NameResolution_1013_0,\
 Microsoft_Windows_Winsock_NameResolution_1014_0,\
 Microsoft_Windows_Winsock_NameResolution_1015_0
+
+# [20230111] Added imports for Microsoft_Windows_Winsock_Socket
+from etl.parsers.etw.Microsoft_Windows_Winsock_Sockets import \
+Microsoft_Windows_Winsock_Sockets_1_0,\
+Microsoft_Windows_Winsock_Sockets_2_0,\
+Microsoft_Windows_Winsock_Sockets_3_0,\
+Microsoft_Windows_Winsock_Sockets_4_0,\
+Microsoft_Windows_Winsock_Sockets_5_0,\
+Microsoft_Windows_Winsock_Sockets_6_0,\
+Microsoft_Windows_Winsock_Sockets_7_0,\
+Microsoft_Windows_Winsock_Sockets_8_0,\
+Microsoft_Windows_Winsock_Sockets_9_0,\
+Microsoft_Windows_Winsock_Sockets_10_0,\
+Microsoft_Windows_Winsock_Sockets_11_0,\
+Microsoft_Windows_Winsock_Sockets_12_0,\
+Microsoft_Windows_Winsock_Sockets_13_0,\
+Microsoft_Windows_Winsock_Sockets_14_0,\
+Microsoft_Windows_Winsock_Sockets_15_0,\
+Microsoft_Windows_Winsock_Sockets_16_0
 
 from etl.parsers.etw.Microsoft_Windows_Winsock_SQM import \
 Microsoft_Windows_Winsock_SQM_5_0,\

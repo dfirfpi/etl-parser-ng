@@ -177,4 +177,3 @@ class Microsoft_WindowsPhone_Ufx_119_0(Etw):
         "Str" / CString,
         "Int" / Int32ul
     )
-
